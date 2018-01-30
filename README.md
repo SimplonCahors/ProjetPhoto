@@ -1,3 +1,36 @@
+Installation et initialisation du projet en local
+================================================
+-Se placer dans le dossier parent de celui cloné sur le terminal et rentrer la ligne de commande suivante:
+(composer create-project themosis/themosis ProjetPhoto)
+
+-composer a donc creer un dossier dans lequel se trouve un projet wordpress/themosis vide.
+
+-deplacer le contenu du projet cloné a l'intérieur de celui créé par composer.(fusionner et remplacer pour chaque fichier)
+
+-Maintenant il faut créer une base de donnée  vide sur PHPmyadmin afin d'y importer la base de donnée du site, celle -ci est présente dans le dossier database
+
+-Modifier le fichier .env et rentrer vos identifiants de PHPmyadmin ainsi que le nom de la base de données créée précédemment.
+
+-Enfin, créer votre VIRTUAL HOST, puis dans le dossier config, modifier le fichier environnement.php afin d'y rentrer l'url choisi lors de la création du VIRTUAL HOST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Themosis framework
 ==================
 
