@@ -1,0 +1,224 @@
+.avalon_td_proofing .pixproof-data{position:relative;  margin-bottom:60px; width:100%; float:left; clear:both;}
+.avalon_td_proofing .pixproof-data .grid{margin:0px auto; max-width:890px;}
+.avalon_td_proofing .pixproof-data .grid > div{
+	float:left; 
+	clear:both; 
+	width:100%; 
+	padding:30px; 
+	background:#f5f5f5;
+	
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;  
+}
+.avalon_td_proofing .pixproof-data .grid__item{
+	width:25%;
+	float:left;
+	padding-right:30px;
+	position:relative;
+	
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;  
+}
+.avalon_td_proofing .pixproof-data .grid__item.last{
+	padding-right:0px;
+	text-align:right;
+}
+.button-download.button[disabled="disabled"]{
+	background:#ddd;
+	border-color:#ddd;
+	color:#777;
+	cursor:default;
+}
+.button-download.button{
+	color:#fff;
+	background:#000;
+}
+.avalon_td_proofing .entry__meta-box span{
+	letter-spacing:1px;
+	color:#777;
+}
+.avalon_td_proofing .entry__meta-box h6{
+	margin-bottom:5px;
+	color:#333;
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:14px;
+}
+.avalon_td_proof_content{
+	clear:both;
+	float:left;
+	width:100%;
+	margin:30px 0px 40px 0px;
+}
+.avalon_td_proof_content > div{
+	margin:0px auto;
+	max-width:890px;
+}
+.avalon_td_proofing_single .avalon_td_comments > div{
+	margin:0px auto;
+	max-width:890px;
+}
+.avalon_td_proofing_single .content_holder{
+	float:left;
+	clear:both;
+	width:100%;
+}
+
+.avalon_td_proofing .proof-photo{padding-bottom:0;-moz-transition:all 0.3s cubic-bezier(0.86, 0, 0.07, 1);-o-transition:all 0.3s cubic-bezier(0.86, 0, 0.07, 1);-webkit-transition:all 0.3s cubic-bezier(0.86, 0, 0.07, 1);transition:all 0.3s cubic-bezier(0.86, 0, 0.07, 1);text-align:center}
+.avalon_td_proofing .proof-photo:hover .proof-photo__meta{filter:progid:DXImageTransform.Microsoft.Alpha(enabled=false);opacity:1;background:rgba(0,0,0,0.5)}
+.avalon_td_proofing .proof-photo.selected .proof-photo__status{opacity:1}
+.avalon_td_proofing .proof-photo.selected .proof-photo__status span.ticker,
+.avalon_td_proofing .proof-photo.selected .proof-photo__status span.bg{opacity:1}
+.avalon_td_proofing .proof-photo.selecting .proof-photo__status span.ticker,
+.avalon_td_proofing .proof-photo.selecting .proof-photo__status span.bg{opacity:0}
+.avalon_td_proofing .proof-photo.scrolled_from_comments{-moz-transform:scale(1.2, 1.2);-ms-transform:scale(1.2, 1.2);-o-transform:scale(1.2, 1.2);-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2);z-index:50}
+.avalon_td_proofing .proof-photo a{color:white}
+
+
+.avalon_td_proofing .proof-photo__container{position:relative; overflow:hidden; }
+.avalon_td_proofing .avalon_td_extra{position:relative; overflow:hidden; }
+.avalon_td_proofing .proof-photo .img_holder{position:relative}
+.avalon_td_proofing .proof-photo .img_holder img{
+	min-width:100%;
+	max-width:100%;
+	
+	-webkit-transform: scale(1.04,1.04);
+	-ms-transform: scale(1.04,1.04);
+    transform: scale(1.04,1.04);
+	
+	-webkit-transition: all .9s ease;
+	   -moz-transition: all .9s ease;
+	    -ms-transition: all .9s ease;
+	     -o-transition: all .9s ease;
+	        transition: all .9s ease;
+}
+.avalon_td_proofing .proof-photo:hover .img_holder img{
+	-webkit-transform: scale(1.0,1.0);
+	-ms-transform: scale(1.0,1.0);
+    transform: scale(1.0,1.0);
+}
+
+.avalon_td_proofing .proof-photo__meta{position:absolute;top:0;left:0;right:0;bottom:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;transition:all 0.3s linear;}
+.avalon_td_proofing .proof-photo__meta .flexbox{display:table; width:100%; height:100%; text-align:center;}
+.avalon_td_proofing .proof-photo__meta .flexbox__item{display:table-cell; vertical-align:middle;}
+.avalon_td_proofing .proof-photo__meta ul{
+	list-style-type:none;
+}
+.avalon_td_proofing .proof-photo__meta ul li{
+	display:inline-block;
+}
+.avalon_td_proofing .proof-photo__meta span{font-size:18px; margin:0px; display:block; background:#000; padding:10px; width:30px; height:30px; border-radius:100%; color:#fff;}
+.avalon_td_proofing .proof-photo__meta .select-action .b{display:none;}
+.avalon_td_proofing .proof-photo.selected .proof-photo__meta .select-action .b{display:block;}
+.avalon_td_proofing .proof-photo.selected .proof-photo__meta .select-action .a{display:none;}
+
+
+.avalon_td_proofing .proof-photo__status{-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;-webkit-transition:all 0.2s linear;transition:all 0.2s linear;position:absolute;top:0;right:0;z-index:1;opacity:0}
+.avalon_td_proofing .proof-photo span.ticker{display:block;font-size:18px;color:#fff;line-height:32px;width:32px;text-align:center;opacity:0;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;-webkit-transition:all 0.2s linear;transition:all 0.2s linear; position:relative; z-index:10;}
+.avalon_td_proofing .proof-photo__status .bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: auto;
+	width: 80px;
+	height:50px;
+	display: block;
+	margin: -15px -30px 0 0;
+	z-index: 5;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-radius: 0;
+	min-height: 0;
+	background: #1DB701;
+}
+
+.avalon_td_proofing .proof-photo__id{display:block;padding:6px 14px;text-align:center; position:absolute; left:0px;bottom:0px; background:rgba(0,0,0,0.8); color:#fff; letter-spacing:1px; z-index:40;}
+.avalon_td_proofing .meta__action{margin:0;color:black;text-decoration:none !important;text-transform:uppercase;text-align:center}
+.avalon_td_proofing .meta__action--popup{color:white}
+.avalon_td_proofing .pixproof_photo_ref{padding:3px 6px;margin:0 3px;color:white;background:black;cursor:pointer}
+.avalon_td_proofing .gallery{margin-bottom:20px}
+
+.avalon_td_proofing .pixproof_gallery{
+	width:100%; 
+	clear:both; 
+	float:left;
+	padding:0px;
+	margin-bottom:70px;
+	
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;  
+}
+.avalon_td_proofing .pixproof_gallery > ul{
+	width:auto;
+	list-style-type:none;
+	margin-left:-5px;
+}
+.avalon_td_proofing .gallery-item{
+	width:20%;
+	float:left;
+	padding-left:5px;
+	margin-bottom:5px;
+	
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;  
+}
+@media (max-width: 1600px) {
+	.avalon_td_proofing .gallery-item{width:25%;}
+}
+@media (max-width: 1200px) {
+	.avalon_td_proofing .gallery-item{width:33.33%;}
+}
+@media (max-width: 1040px) {
+	.avalon_td_proofing .gallery-item{width:50%;}
+	.avalon_td_proofing .proof-photo__meta{position:relative; opacity:1; background:#000; padding:5px 0px}
+	.avalon_td_proofing .proof-photo:hover .proof-photo__meta{background:#000;}
+}
+@media (max-width: 768px) {
+	.avalon_td_proofing .pixproof-data .grid__item{width:100%; padding-bottom:10px; margin-bottom:10px; border-bottom:1px dashed #ddd;}
+	.avalon_td_proofing .pixproof-data .grid__item.last{border-bottom:0px; padding-bottom:0px; margin-bottom:0px; text-align:left; padding-top:10px;}
+	
+}
+@media (max-width: 480px) {
+	.avalon_td_proofing .gallery-item{width:100%; padding-left:0px;} 
+	.avalon_td_proofing .pixproof_gallery{padding-right:0px;}
+}
+
+
+.avalon_td_proofing .proof-photo.selecting span.spinner{opacity:1}
+.avalon_td_proofing .proof-photo span.spinner{
+	height:14px;
+	width:14px; 
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	border:3px solid rgba(255,255,255,0.2);
+	border-top:3px solid rgba(255,255,255,0.9);
+	border-radius:100%;
+	opacity:0;
+	z-index:50;
+	
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+
+	-webkit-animation:rotation .6s infinite linear;
+	-moz-animation:rotation .6s infinite linear;
+	-o-animation:rotation .6s infinite linear;
+	animation:rotation .6s infinite linear
+}
+@-webkit-keyframes rotation{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(359deg)}}
+@-moz-keyframes rotation{from{-moz-transform:rotate(0deg)}to{-moz-transform:rotate(359deg)}}
+@-o-keyframes rotation{from{-o-transform:rotate(0deg)}to{-o-transform:rotate(359deg)}}
+@keyframes rotation{from{transform:rotate(0deg)}to{transform:rotate(359deg)}}
