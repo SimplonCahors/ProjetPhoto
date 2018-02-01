@@ -1,0 +1,93 @@
+{
+    "sitetypes": {
+        "business": {
+            "headline": "business_headline",
+            "description": "business_description",
+            "themes": [
+                "mk",
+                "argent",
+                "dispatch",
+                "omega",
+                "colormag",
+                "responsive",
+                "hoot-ubix",
+                "donna",
+                "clean-biz"
+            ]
+        },
+
+        "blog": {
+            "headline": "blog_headline",
+            "description": "blog_description",
+            "themes": [
+                "social-magazine",
+                "gazette",
+                "queue",
+                "lens",
+                "dispatch",
+                "omega",
+                "responsive",
+                "colormag",
+                "hoot-ubix",
+                "donna",
+                "clean-biz",
+                "excel-blog",
+                "silvia",
+                "vt-grid-mag"
+            ]
+        },
+
+        "eshop": {
+            "headline": "eshop_headline",
+            "description": "eshop_description",
+            "themes": [
+                "exoplanet",
+                "business-press",
+                "azera-shop",
+                "maxstore",
+                "styled-store",
+                "ocin-lite",
+                "vogue",
+                "alpha-store",
+                "hoot-ubix"
+            ]
+        },
+
+        "gallery": {
+            "headline": "gallery_headline",
+            "description": "gallery_description",
+            "themes": [
+                "photoline-lite",
+                "lens",
+                "cubic",
+                "boardwalk",
+                "trance",
+                "alum",
+                "receptar",
+                "hoot-ubix",
+                "donna",
+                "silvia",
+                "vt-grid-mag"
+            ]
+        },
+
+        "personal": {
+            "headline": "personal_headline",
+            "description": "personal_description",
+            "themes": [
+                "gazette",
+                "trance",
+                "queue",
+                "dispatch",
+                "omega",
+                "social-magazine",
+                "hoot-ubix",
+                "donna",
+                "clean-biz",
+                "excel-blog",
+                "silvia",
+                "vt-grid-mag"
+            ]
+        }
+    }
+}
